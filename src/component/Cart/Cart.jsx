@@ -21,7 +21,8 @@ const Cart = ({ selectedCourse, totalCredit, totalPrice, remainingCredit }) => {
 }
 
 Cart.propTypes = {
-    selectedCourse: PropTypes.object
+    selectedCourse: PropTypes.object,
+    totalCredit:PropTypes.number
 }
 
 export default Cart;

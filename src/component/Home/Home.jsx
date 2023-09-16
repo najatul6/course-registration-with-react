@@ -21,7 +21,7 @@ const Home = () => {
         let price = card.price;
 
         if (isExit) {
-            return alert("Opps!! You Already Seclected This Course")
+            return alert("Opps!! You Already Select This Course")
         }
         else {
             // Credit sum 
